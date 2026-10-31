@@ -175,7 +175,7 @@ with st.sidebar:
                                                        ("offline corpus", True)) if on))
     st.markdown('<div style="font-weight:700; margin:.4rem 0 .1rem 0;">Learn more:</div>', unsafe_allow_html=True)
     for key, label, dlg in (("l1", "🔍 Why BornToFit?", dlg_why), ("l2", "💼 Know its Benefits", dlg_benefits), ("l3", "🔐 Privacy and safety", dlg_privacy),
-                            ("l4", "🏥 Standards and interoperability", dlg_standards), ("l5", "🗺️ Roadmap", dlg_roadmap)):
+                            ("l4", "🏥 Standards/Interoperability", dlg_standards), ("l5", "🗺️ Roadmap", dlg_roadmap)):
         if st.button(label, key=key):
             dlg()
     st.divider()
