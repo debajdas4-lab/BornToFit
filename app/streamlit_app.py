@@ -119,7 +119,7 @@ def dlg_why():
                 "**Beyond a chatbot:** it acts (book, update, export), cites trusted sources, enforces who may see what, and keeps an audit trail.")
 
 
-@st.dialog("Business benefits")
+@st.dialog("Benefits")
 def dlg_benefits():
     st.markdown("- **Fewer hops:** one sentence replaces identify, check history, find slot, book, look up information.\n"
                 "- **Speed:** independent steps run in parallel (benchmark in the Evaluation tab).\n"
