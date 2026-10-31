@@ -165,7 +165,7 @@ with st.sidebar:
     st.markdown('<div style="font-size:2.0rem; font-weight:800; line-height:1.1; margin:0;">🌿 BornToFit</div>'
                 '<div style="font-size:.85rem; color:#6B7280; font-weight:500; margin:.3rem 0 .6rem 0;">Healthcare Agent</div>', unsafe_allow_html=True)
     if app.llm:
-        st.success(f"✅ Smart Mode: AI-assisted answers")
+        st.success(f"✅ Smart Mode: AI-assisted Answers")
     else:
         st.markdown('<div style="background:#ECFDF5; padding:.6rem .8rem; border-radius:.5rem; border-left:4px solid #0E7C66; font-size:.72rem;">'
                     '⚡ <strong>Live Mode</strong>: planning, tools and answers run offline with no AI subscription. Add an LLM key and model to switch to Smart Mode.</div>',
